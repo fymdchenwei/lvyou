@@ -1,5 +1,5 @@
-const CACHE = 'ulanbutong-v1';
-const ASSETS = ['./', './index.html', './style.css', './data.js', './app.js', './manifest.json',
+const CACHE = 'ulanbutong-v2';
+const ASSETS = ['./', './index.html', './style.css', './data.js', './routes.js', './app.js', './manifest.json',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {

@@ -39,3 +39,17 @@ ul.plain{padding-left:1.2em;margin:6px 0}
 ul.plain li{margin:6px 0}
 .hide{display:none}
 @media (orientation:landscape) and (max-height:500px){nav button{min-height:48px}body{padding-bottom:64px}}
+.switch{display:flex;gap:8px;margin-top:10px}
+.rbtn{flex:1;min-height:64px;border-radius:12px;border:2px solid rgba(255,255,255,.4);background:rgba(255,255,255,.12);color:#fff;font-family:inherit;text-align:left;padding:8px 10px;line-height:1.3}
+.rbtn b{display:block;font-size:.98rem}
+.rbtn small{display:block;font-size:.72rem;opacity:.9;margin-top:2px}
+.rbtn.on{background:#fff;color:var(--g);border-color:#fff}
+.bt{width:100%;border-collapse:collapse;font-size:.88rem;margin:6px 0}
+.bt td{padding:6px 4px;border-bottom:1px solid #eee;vertical-align:top}
+.bt td:first-child{white-space:nowrap;width:5.5em}
+.bt .n{text-align:right;white-space:nowrap;font-weight:700;width:5em}
+.bt .m{color:var(--mut);font-size:.8rem}
+.bt tr.tot td{font-weight:800;border-top:2px solid var(--g);color:var(--g)}
+.card.total{background:#f3f8f4}
+.routehint{margin:0 0 8px}
+@media (max-width:380px){.rbtn small{display:none}.rbtn{min-height:48px}}

@@ -1,7 +1,7 @@
 {
-  "name": "乌兰布统亲子露营 · 国庆5日",
-  "short_name": "布统露营",
-  "description": "大连→乌兰布统 5天家庭露营行程与可勾选清单",
+  "name": "国庆家庭露营自驾 · 双路线5日",
+  "short_name": "国庆露营",
+  "description": "大连出发：路线A乌兰布统线 / 路线B赤峰线，5天家庭行程、预算与可勾选清单",
   "lang": "zh-CN",
   "start_url": "./index.html",
   "scope": "./",
