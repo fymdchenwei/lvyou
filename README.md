@@ -1,1 +1,7 @@
-# lvyou
+# 乌兰布统亲子露营
+
+国庆五天（10月1日–5日）大连往返乌兰布统的家庭露营页：行程、每日待办、总装备清单和出发前注意事项。清单可以勾选，状态保存在本机浏览器；可以安装到主屏幕，并用 Service Worker 离线打开。
+
+页面资源、`manifest.json` 的 `start_url` / `scope`，以及 Service Worker 的注册地址和缓存列表都使用相对路径，站点挂在 `/lvyou/` 下时仍能正常打开和安装。
+
+推送到默认分支 `main` 后，GitHub Actions 会把仓库根目录作为静态内容发布到 GitHub Pages。

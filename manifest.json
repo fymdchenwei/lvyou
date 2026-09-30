@@ -1,0 +1,17 @@
+{
+  "name": "乌兰布统亲子露营 · 国庆5日",
+  "short_name": "布统露营",
+  "description": "大连→乌兰布统 5天家庭露营行程与可勾选清单",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f1e8",
+  "theme_color": "#2f6b4f",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
