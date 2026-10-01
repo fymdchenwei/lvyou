@@ -1,4 +1,4 @@
-const CACHE = 'ulanbutong-v2';
+const CACHE = 'ulanbutong-v3';
 const ASSETS = ['./', './index.html', './style.css', './data.js', './routes.js', './app.js', './manifest.json',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'];
 

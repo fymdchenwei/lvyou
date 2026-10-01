@@ -53,3 +53,6 @@ ul.plain li{margin:6px 0}
 .card.total{background:#f3f8f4}
 .routehint{margin:0 0 8px}
 @media (max-width:380px){.rbtn small{display:none}.rbtn{min-height:48px}}
+
+.switch{flex-wrap:nowrap}.rbtn{min-width:0}.rbtn small{font-size:.68rem}
+@media (max-width:480px){.rbtn small{display:none}.rbtn{min-height:48px}.rbtn b{font-size:.85rem}}

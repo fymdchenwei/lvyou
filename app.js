@@ -40,7 +40,7 @@ function budgetHTML(d){
 function routeTotal(r){return r.days.reduce((a,d)=>a+budgetOf(d),0)}
 
 function renderSwitch(){
-  $('#switch').innerHTML=['A','B'].map(k=>`<button class="rbtn ${k===route?'on':''}" data-route="${k}"><b>${esc(R[k].name)}</b><small>${esc(R[k].tagline)}</small></button>`).join('');
+  $('#switch').innerHTML=Object.keys(R).filter(k=>k.length===1).map(k=>`<button class="rbtn ${k===route?'on':''}" data-route="${k}"><b>${esc(R[k].name)}</b><small>${esc(R[k].tagline)}</small></button>`).join('');
 }
 function renderItinerary(){
   const r=cur();
